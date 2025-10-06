@@ -1,0 +1,111 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  font-weight: bold;
+  background: #eef3aa;
+  margin-top: 10px;
+}
+
+header {
+  background: #ad9c04;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  font-weight: bold;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 350%;
+  font-weight: bold;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.formulario {
+  width: 40%;
+  background: #ad9c04;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+#info{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dato {
+  color: #ffffff;
+}
+
+.formulario label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario input {
+  width: 97%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.formulario button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background:   #3642f1;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'sans-serif';
+  color: #ccc;
+}
+
+.formulario button:hover {
+  background:   #d4fa6b;
+}
+.caja {
+  background: #ad9c04;
+  border: 2px solid  #e5ff00;
+  padding: 50px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.caja h2 {
+  font-weight: bold;
+  margin-top: 0;
+}
+.resultado {
+  width: 30%;
+}
+
+#cerrar {
+  margin-top: 15px;
+  padding: 8px 12px;
+  background: #ff0000;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ccc;
+}
+
+#cerrar:hover {
+  background: #d4fa6b;
+}
